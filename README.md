@@ -8,6 +8,7 @@ The project contains these 3 following files:
   - elocale.js: the js file that contains the code for loading datas from remote JSON file.
   
 ## Built With
+
   - [jQueryUI](https://jqueryui.com/) 1.10.4
   - [jQuery](https://jquery.com/) 1.10.2
   - [SweetAlert](https://sweetalert.js.org/)
