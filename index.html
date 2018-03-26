@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>List of countries - Powered by Geonames</title>
+    <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
+      <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	  <link rel="stylesheet" href="elocale.css">
+	  <script src="elocale.js"></script>
+    
+</head>
+<body>
+<nav class="navbar navbar-inverse" >
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">eLocalisation</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <form id="form1">
+	<div class="ui-widget">
+	<fieldset style="width:200px; margin-left:500px;">
+	<legend>Choose your location</legend>
+	<label for="country">Choose a country:</label>
+     <select id="country"  class="form-control"></select><br>
+	 <label for="state">Choose a state:</label>
+	 <select id="state" class="form-control"></select><br>
+	 <label for="city">Choose a city:</label>
+	 <select id="city" class="form-control"	></select><br>
+	 <button id="check"  type="button">Click</button>
+	 </fieldset>
+		</div>
+    </form>
+</body>
+</html>
